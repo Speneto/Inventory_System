@@ -1,0 +1,63 @@
+
+html{
+	background:url('images/bg_tile.jpg') #161718;
+}
+
+#formContainer{
+        background:url('images/login_form_bg.jpg') no-repeat;
+	width:288px;
+	height:321px;
+	margin:0 auto;
+	position:relative;
+	z-index:1;
+	
+	-moz-perspective: 800px;
+	-webkit-perspective: 800px;
+	perspective: 800px;
+	margin-top: 10px;
+}
+
+
+
+
+
+input[type=text],input[type=password]{
+	/* The text fields */
+	font: 15px 'Segoe UI',Arial,sans-serif;
+	border: none;
+	background:none;
+	height: 36px;
+	left: 26px;
+	position: absolute;
+	top: 176px;
+	width: 234px;
+	text-indent: 8px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+	color:#eee;
+	outline:none;
+}
+
+
+#loginPass{
+	top: 215px;
+}
+
+
+
+input[type=button]{
+	
+	/* Submit button */
+	
+	opacity:0.9;
+	position:absolute;
+	top:262px;
+	left:25px;
+	width: 239px;
+	height:36px;
+	cursor:pointer;
+	border-radius:6px;
+	box-shadow:0 1px 1px #888;
+	border:none;
+	color:#fff;
+	font:14px/36px 'Segoe UI Light','Segoe UI',Arial,sans-serif;
+	}

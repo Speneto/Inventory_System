@@ -1,0 +1,6 @@
+AuthUserFile C:/wamp/www/InventorySystem/userlist.txt
+AuthType Basic
+AuthName "Restricted"
+<Files "editproduct.php">
+Require Valid-User
+</Files>

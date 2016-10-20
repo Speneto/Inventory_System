@@ -1,0 +1,39 @@
+body
+{
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+padding:10px;
+}
+
+td
+{
+padding:2px;
+border-left:1px solid #fff;
+border-bottom:1px solid #fff;
+}
+
+.edit_tr:hover
+{
+background:url(edit.png) right no-repeat #80C8E5;
+cursor:pointer;
+}
+.edit_tr 
+{
+background: none repeat scroll 0 0 #D5EAF0;
+}
+
+th
+{
+font-weight:bold;
+text-align: center;
+padding:2px;
+border:1px solid #fff;
+border-right-width: 0px;
+}
+.head
+{
+background: none repeat scroll 0 0 #91C5D4;
+color:#00000;
+
+}
+
